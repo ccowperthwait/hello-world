@@ -1,6 +1,7 @@
 public class Sample {
 	public static void main(String[] args) {
-		if (args == null) {
+		
+		if (args == null) {// edit
 			System.out.println("args==null");
 		} else if (args.length == 0) {
 			System.out.println("args.length==0");
